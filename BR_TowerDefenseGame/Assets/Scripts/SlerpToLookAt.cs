@@ -20,6 +20,18 @@ public class SlerpToLookAt : MonoBehaviour
         _lookRotation = Quaternion.LookRotation(_direction);
 
         //rotate us over time according to speed until we are in the required rotation
-        transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
+        //transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
+        Quaternion rot = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);
+
+        Vector3 angles = rot.eulerAngles;
+
+        angles.x = 0;
+        angles.z = 0;
+
+        rot = Quaternion.Euler(angles.x, angles.y, angles.z);
+
+        transform.rotation = rot;// SetEulerAngles(angles);
+
+        //transform.rotation.eulerAngles = new Vector3(transform.rotation.eulerAngles.x, angles.y, transform.rotation.eulerAngles.z);
     }
 }

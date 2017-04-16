@@ -10,22 +10,16 @@ public class Follow : MonoBehaviour {
 
     private Transform targetPos;
 
-
-
-
 	// Use this for initialization
 	void Start () {
-
         targetPos = targetObject.transform;
-   
-
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-            transform.position = Vector3.Lerp(transform.position, targetPos.position, speed);
-            
+            Vector3 newPos = Vector3.Lerp(transform.position, targetPos.position, speed);
+
+        transform.position = new Vector3(newPos.x, 0, newPos.z);
     }
 
-    }
+}
