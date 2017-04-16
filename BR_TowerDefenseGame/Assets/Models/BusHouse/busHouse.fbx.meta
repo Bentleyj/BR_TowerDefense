@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 0247ca55264693a44a2d07e07b69e694
+timeCreated: 1492360593
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bushouse_chrome
+    100004: bushouse_concrete
+    100006: bushouse_curtains
+    100008: bushouse_fillers
+    100010: bushouse_glass
+    100012: bushouse_ground
+    100014: bushouse_lamps
+    100016: bushouse_plastic
+    100018: bushouse_roof_twoSide
+    100020: bushouse_rustMetal
+    100022: bushouse_tire_twoSide
+    100024: bushouse_water
+    100026: bushouse_wood
+    100028: bushouse_woodFace
+    100030: bushouse_woodPlate
+    400000: //RootNode
+    400002: bushouse_chrome
+    400004: bushouse_concrete
+    400006: bushouse_curtains
+    400008: bushouse_fillers
+    400010: bushouse_glass
+    400012: bushouse_ground
+    400014: bushouse_lamps
+    400016: bushouse_plastic
+    400018: bushouse_roof_twoSide
+    400020: bushouse_rustMetal
+    400022: bushouse_tire_twoSide
+    400024: bushouse_water
+    400026: bushouse_wood
+    400028: bushouse_woodFace
+    400030: bushouse_woodPlate
+    2300000: //RootNode
+    2300002: bushouse_chrome
+    2300004: bushouse_concrete
+    2300006: bushouse_curtains
+    2300008: bushouse_fillers
+    2300010: bushouse_glass
+    2300012: bushouse_ground
+    2300014: bushouse_lamps
+    2300016: bushouse_plastic
+    2300018: bushouse_roof_twoSide
+    2300020: bushouse_rustMetal
+    2300022: bushouse_tire_twoSide
+    2300024: bushouse_water
+    2300026: bushouse_wood
+    2300028: bushouse_woodFace
+    2300030: bushouse_woodPlate
+    3300000: //RootNode
+    3300002: bushouse_chrome
+    3300004: bushouse_concrete
+    3300006: bushouse_curtains
+    3300008: bushouse_fillers
+    3300010: bushouse_glass
+    3300012: bushouse_ground
+    3300014: bushouse_lamps
+    3300016: bushouse_plastic
+    3300018: bushouse_roof_twoSide
+    3300020: bushouse_rustMetal
+    3300022: bushouse_tire_twoSide
+    3300024: bushouse_water
+    3300026: bushouse_wood
+    3300028: bushouse_woodFace
+    3300030: bushouse_woodPlate
+    4300000: bushouse_body
+    4300002: bushouse_woodFace
+    4300004: bushouse_woodPlate
+    4300006: bushouse_water
+    4300008: bushouse_concrete
+    4300010: bushouse_curtains
+    4300012: bushouse_roof_twoSide
+    4300014: bushouse_rustMetal
+    4300016: bushouse_tire_twoSide
+    4300018: bushouse_plastic
+    4300020: bushouse_chrome
+    4300022: bushouse_fillers
+    4300024: bushouse_ground
+    4300026: bushouse_glass
+    4300028: bushouse_wood
+    4300030: bushouse_lamps
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
