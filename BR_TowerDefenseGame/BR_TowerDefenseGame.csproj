@@ -91,6 +91,7 @@
     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\Gunner.cs" />
     <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoEventHandler.cs" />
     <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoTrackableEventHandler.cs" />
     <Compile Include="Assets\SamplesResources\CloudReco\Scripts\ContentManager.cs" />
@@ -157,6 +158,8 @@
     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+    <Compile Include="Assets\ZombieController.cs" />
+    <Compile Include="Assets\ZombieManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Vuforia\Vuforia\authoringinfo.xml" />
