@@ -16,7 +16,7 @@ public class ZombieManager : MonoBehaviour {
     public float initialSpeedMax;
 
 
-    [HideInInspector]
+    //[HideInInspector]
     public List<ZombieController> zombies;
 
 	// Use this for initialization

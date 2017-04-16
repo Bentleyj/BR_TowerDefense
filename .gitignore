@@ -25,6 +25,7 @@ Plugins/
 SampleScenes/
 SampleResources/
 Toolbag/
+StandardAssets/
 
 # Builds Folder and any rogue build files
 Builds/

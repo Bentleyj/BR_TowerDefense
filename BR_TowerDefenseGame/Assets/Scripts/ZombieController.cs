@@ -23,7 +23,7 @@ public class ZombieController : MonoBehaviour {
 	void Update () {
         if(!example)
         {
-            if (life <= 0 || (transform.localPosition - follower.targetObject.transform.localPosition).magnitude < 1.0)
+            if (life <= 0)
             {
                 Destroy(gameObject);
             }

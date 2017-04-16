@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gunner : MonoBehaviour {
 
     public ZombieManager zManager;
+    public AudioSource gunSound;
     public float range;
     public float fireRate;
     private float lastFireTime;
@@ -22,7 +23,7 @@ public class Gunner : MonoBehaviour {
         int nearestIndex = 0;
 		for(int i = 0; i < zManager.zombies.Count; i++)
         {
-            float dist = (zManager.zombies[i].transform.position - transform.position).magnitude;
+            float dist = (new Vector2(zManager.zombies[i].transform.position.x, zManager.zombies[i].transform.position.z) - new Vector2(transform.position.x, transform.position.z)).magnitude;
             if (dist < nearestDist)
             {
                 nearestDist = dist;
@@ -41,5 +42,6 @@ public class Gunner : MonoBehaviour {
         zManager.zombies[i].life -= damage;
         zManager.zombies[i].color = Color.red;
         lastFireTime = Time.time;
+        gunSound.Play();
     }
 }
