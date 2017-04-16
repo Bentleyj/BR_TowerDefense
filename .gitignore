@@ -22,6 +22,8 @@ StreamingAssets/
 
 #Ignore big dlls and addon files, they can live in the Plugins folder
 Plugins/
+SampleScenes/
+SampleResources/
 
 # Builds Folder and any rogue build files
 Builds/
