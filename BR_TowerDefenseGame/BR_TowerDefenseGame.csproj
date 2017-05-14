@@ -120,10 +120,15 @@
     <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesMainMenu.cs" />
     <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesNavigationHandler.cs" />
     <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesTapHandler.cs" />
+    <Compile Include="Assets\Scripts\Attacker.cs" />
     <Compile Include="Assets\Scripts\Follow.cs" />
-    <Compile Include="Assets\Scripts\Gunner.cs" />
+    <Compile Include="Assets\Scripts\HealthBarController.cs" />
+    <Compile Include="Assets\Scripts\HealthyObject.cs" />
+    <Compile Include="Assets\Scripts\HomeBaseController.cs" />
+    <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerPosition.cs" />
     <Compile Include="Assets\Scripts\SlerpToLookAt.cs" />
+    <Compile Include="Assets\Scripts\ZombieAttack.cs" />
     <Compile Include="Assets\Scripts\ZombieController.cs" />
     <Compile Include="Assets\Scripts\ZombieManager.cs" />
     <Compile Include="Assets\StandardAssets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
@@ -212,6 +217,7 @@
     <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
     <None Include="Assets\SamplesResources\ObjectReco\Shaders\ObjectReco_Custom_Outline.shader" />
     <None Include="Assets\SamplesResources\VuMark\Shaders\VuMark_Custom_OverlayMesh.shader" />
+    <None Include="Assets\Shaders\HealthBarOverlay.shader" />
     <None Include="Assets\StandardAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\StandardAssets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\StandardAssets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

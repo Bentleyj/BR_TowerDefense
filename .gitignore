@@ -27,6 +27,10 @@ SampleScenes/
 SampleResources/
 Toolbag/
 StandardAssets/
+Models/
+Textures/
+Sounds/
+materials/
 
 # Builds Folder and any rogue build files
 Builds/

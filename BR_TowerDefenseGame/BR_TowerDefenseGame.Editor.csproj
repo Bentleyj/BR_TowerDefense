@@ -149,6 +149,7 @@
     <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
     <None Include="Assets\SamplesResources\ObjectReco\Shaders\ObjectReco_Custom_Outline.shader" />
     <None Include="Assets\SamplesResources\VuMark\Shaders\VuMark_Custom_OverlayMesh.shader" />
+    <None Include="Assets\Shaders\HealthBarOverlay.shader" />
     <None Include="Assets\StandardAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\StandardAssets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\StandardAssets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

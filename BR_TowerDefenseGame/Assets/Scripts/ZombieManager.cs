@@ -15,6 +15,7 @@ public class ZombieManager : MonoBehaviour {
     public float initialSpeedMin;
     public float initialSpeedMax;
 
+    public HealthyObject homeBase;
 
     //[HideInInspector]
     public List<ZombieController> zombies;
@@ -32,6 +33,9 @@ public class ZombieManager : MonoBehaviour {
             Vector2 pos = new Vector2(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f)).normalized * spawnDistance;
             z.transform.localPosition = new Vector3(pos.x, 0, pos.y);
             z.GetComponent<Follow>().speed = Random.Range(initialSpeedMin, initialSpeedMax);
+            z.GetComponent<Follow>().targetPos = homeBase.transform;
+            z.GetComponent<SlerpToLookAt>().Target = homeBase.transform;
+            z.GetComponent<ZombieAttack>().target = homeBase;
             z.GetComponent<ZombieController>().example = false;
             lastSpawnTime = Time.time;
             zombies.Add(z.GetComponent<ZombieController>());
